@@ -1,10 +1,10 @@
 #-------------------------------
 # General Site Settings
 title: Gean Ramos
-logo: https://alphafm.com.br/wp-content/uploads/2023/10/logo_novo-1-1.gif # You can add own logo. For example '/images/logo.png'.
+logo:  # You can add own logo. For example '/images/logo.png'.
 description: O lugar onde as histórias ganham vida!Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+url: "http://cdn.geanramos.42web.io" # The base hostname & protocol for your site, e.g. http://example.com
 cdnimg: "" # O nome do host e protocolo base da sua imagem, por exemplo. http://i1.wp.com/exemplo.com
 
 
