@@ -1,0 +1,97 @@
+#-------------------------------
+# General Site Settings
+title: Gean Ramos
+logo: https://alphafm.com.br/wp-content/uploads/2023/10/logo_novo-1-1.gif # You can add own logo. For example '/images/logo.png'.
+description: O lugar onde as histórias ganham vida!Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+cdnimg: "" # O nome do host e protocolo base da sua imagem, por exemplo. http://i1.wp.com/exemplo.com
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Gean Ramos
+  avatar: 'https://2.gravatar.com/avatar/bdd3a9aa9878447e26ba6191f221487233264cf3915c0823af839cc5af5c9439?size=80'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  title: Gean Ramos
+  description: Pensamentos, histórias e ideias.
+  image: '/images/01.jpg'
+
+
+#-------------------------------
+# Configurações de contato
+contact:
+  email: geanramos@hotmail.com.br # Adicione seu e-mail para formulário de contato
+  description: Norlin vem com um formulário de contato integrado, que você pode usar com o serviço Formspree para lidar com até 50 envios por mês gratuitamente. Você também pode mudar facilmente para outro serviço de formulário de contato, se desejar. # Add a description of your form
+
+# NOTE
+# O tema Norlin vem com um formulário de contato integrado. Você pode usar este formulário com o serviço Formspree (https://formspree.io/) e obter até 50 envios gratuitamente. Além disso, você pode mudar facilmente para outro serviço, se desejar.
+
+
+#-------------------------------
+# Seção de rodapé
+# Exemplo de adição de um novo link ao rodapé - {icon: "ion-logo-github", link: "https://github.com"}
+# Outros ícones podem ser encontrados em https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/geanramos"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/@geanramus"}
+- {icon: "ion-logo-instagram", link: "https://instagr.am/geanramus"}
+- {icon: "ion-logo-ionic", link: "https://bsky.app/profile/geanramos.bsky.social"}
+- {icon: "ion-logo-whatsapp", link: "#"}
+- {icon: "ion-logo-facebook", link: "#"}
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: geanramos # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: disable # Para habilitar o formulário mailchimp, use o valor 'enable'. Para desabilitar o formulário, deixe o campo em branco.
+mailchimp-identifier: # Adicione seu identificador de formulário MailChimp. Por exemplo - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+kramdown:
+  parse_block_html: true
+
+paginate: 8
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
