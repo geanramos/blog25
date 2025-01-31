@@ -70,6 +70,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-tagging-related_posts
 
 kramdown:
   parse_block_html: true
