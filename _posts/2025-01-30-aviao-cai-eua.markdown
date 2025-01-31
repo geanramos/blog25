@@ -5,6 +5,7 @@ description: 'Urgente: Avião de passageiros e helicóptero militar colidem e ca
 date:   2025-01-30 01:01:00 -0300
 image:  'https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4a84cf0b-b763-4774-be0d-644fa367ffb4.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1'
 tags:   [Noticia, Mundo]
+featured: true
 ---
 **Colisão Aérea em Washington: Jato de Passageiros e Helicóptero Militar Caem no Rio Potomac**
 
