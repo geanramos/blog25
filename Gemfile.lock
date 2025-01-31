@@ -1,82 +1,95 @@
-GEM
-  remote: https://rubygems.org/
-  specs:
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
-    colorator (1.1.0)
-    concurrent-ruby (1.1.7)
-    em-websocket (0.5.2)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
-    eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
-    ffi (1.14.2)
-    ffi (1.14.2-x64-mingw32)
-    forwardable-extended (2.6.0)
-    http_parser.rb (0.6.0)
-    i18n (1.8.5)
-      concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 1.0)
-      jekyll-sass-converter (~> 2.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.3)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (~> 0.4.0)
-      pathutil (~> 0.9)
-      rouge (~> 3.0)
-      safe_yaml (~> 1.0)
-      terminal-table (~> 2.0)
-    jekyll-paginate (1.1.0)
-    jekyll-sass-converter (2.1.0)
-      sassc (> 2.0.1, < 3.0)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
-    jekyll-tagging (1.1.0)
-      nuggets
-    jekyll-watch (2.2.1)
-      listen (~> 3.0)
-    kramdown (2.3.0)
-      rexml
-    kramdown-parser-gfm (1.1.0)
-      kramdown (~> 2.0)
-    liquid (4.0.3)
-    listen (3.3.3)
-      rb-fsevent (~> 0.10, >= 0.10.3)
-      rb-inotify (~> 0.9, >= 0.9.10)
-    mercenary (0.4.0)
-    nuggets (1.6.0)
-    pathutil (0.16.2)
-      forwardable-extended (~> 2.6)
-    public_suffix (4.0.6)
-    rb-fsevent (0.10.4)
-    rb-inotify (0.10.1)
-      ffi (~> 1.0)
-    rexml (3.2.5)
-    rouge (3.26.0)
-    safe_yaml (1.0.5)
-    sassc (2.4.0)
-      ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
-    terminal-table (2.0.0)
-      unicode-display_width (~> 1.1, >= 1.1.1)
-    unicode-display_width (1.7.0)
+#-------------------------------
+# General Site Settings
+title: Bhaskar
+logo: '/images/logo.png'
+description: Hacker | Developer | Trader | Enterpruner.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
-PLATFORMS
-  x64-mingw32
-  x86_64-linux
 
-DEPENDENCIES
-  bundler
-  jekyll
-  jekyll-paginate
-  jekyll-sitemap
-  jekyll-tagging
+#-------------------------------
+# Author Settings
+author:
+  name: Bhaskar
+  avatar: '/images/avatar.jpg'
 
-BUNDLED WITH
-   2.2.3
+
+#-------------------------------
+# Hero Settings
+hero:
+  title: Bhaskar
+  description: DevSecOps, Computers and ideas.
+  image: '/images/grub.jpg'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: bhaskar@parrotsec.in # Add your email for contact form
+  description: I'm a self made person and Internet Activest and talks about cool stuff and kinda crazy ones.
+
+# NOTE
+# Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Footer section
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/bhaskarvilles"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCiHKliMknppbqC9XWdF_HIQ"}
+- {icon: "ion-logo-github", link: "https://github.com/bhaskarvilles"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/bhaskarvilles"}
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: disable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+kramdown:
+  parse_block_html: true
+
+paginate: 8
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
