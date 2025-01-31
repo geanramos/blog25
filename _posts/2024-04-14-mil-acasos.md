@@ -3,6 +3,7 @@ title: "Mil Acasos"
 date: 2024-04-14T12:13:32+05:30
 description: "Era uma terça-feira, e a Helena estava em mais uma festa. Em um prédio cheio de estudantes, foi no elevador que ela esbarrou no Gabriel."
 tags: [memories]
+image: "/img/mil-acasos.jpg"
 ---
 
 **BASEADO EM UMA HISTÓRIA REAL**
