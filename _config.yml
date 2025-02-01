@@ -78,14 +78,14 @@ kramdown:
   parse_block_html: true
 
 paginate: 8
-paginate_path: "/:title"
+paginate_path: "/page/:num"
 
 # Pages Path
 defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: /:title
+      permalink: /:basename:output_ext
 
 include:
   - _pages
