@@ -13,7 +13,7 @@ cdnimg: "" # O nome do host e protocolo base da sua imagem, por exemplo. http://
 # Author Settings
 author:
   name: Gean Ramos
-  avatar: 'https://2.gravatar.com/avatar/bdd3a9aa9878447e26ba6191f221487233264cf3915c0823af839cc5af5c9439?size=80'
+  avatar: 'https://2.gravatar.com/avatar/bdd3a9aa9878447e26ba6191f221487233264cf3915c0823af839cc5af5c9439?size=100'
 
 
 #-------------------------------
@@ -21,7 +21,7 @@ author:
 hero:
   title: Gean Ramos
   description: Pensamentos, histórias e ideias.
-  image: 'https://wp-themes.com/wp-content/themes/twentyseventeen/assets/images/header.jpg'
+  image: 'https://i0.wp.com/newsco.ai/wp-content/uploads/2024/02/imagens-que-induzem-ansiedade-com-sentimentos-de-angustia-1-1-1.jpg?fit=1920%2C1280&ssl=1'
 
 
 #-------------------------------
