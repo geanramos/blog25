@@ -39,11 +39,11 @@ contact:
 # Exemplo de adição de um novo link ao rodapé - {icon: "ion-logo-github", link: "https://github.com"}
 # Outros ícones podem ser encontrados em https://ionicons.com/v4/
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com/geanramos"}
-- {icon: "ion-logo-instagram", link: "https://instagr.am/geanme_"}
+- {icon: "fa-twitter", link: "https://twitter.com/geanramos"}
+- {icon: "fa-instagram", link: "https://instagr.am/geanme_"}
 - {icon: "fa-bluesky", link: "https://bsky.app/profile/geanramos.bsky.social"}
-- {icon: "ion-logo-whatsapp", link: "https://whatsapp.com/channel/0029VaiqYRbC1Fu4UkeAAk0B"}
-- {icon: "ion-logo-facebook", link: "#"}
+- {icon: "fa-whatsapp", link: "https://whatsapp.com/channel/0029VaiqYRbC1Fu4UkeAAk0B"}
+- {icon: "fa-facebook", link: "#top"}
 
 
 #-------------------------------
