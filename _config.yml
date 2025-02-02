@@ -40,10 +40,9 @@ contact:
 # Outros ícones podem ser encontrados em https://ionicons.com/v4/
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/geanramos"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/@geanramus"}
-- {icon: "ion-logo-instagram", link: "https://instagr.am/geanramus"}
-- {icon: "ion-logo-ionic", link: "https://bsky.app/profile/geanramos.bsky.social"}
-- {icon: "ion-logo-whatsapp", link: "#"}
+- {icon: "ion-logo-instagram", link: "https://instagr.am/geanme_"}
+- {icon: "fa-bluesky", link: "https://bsky.app/profile/geanramos.bsky.social"}
+- {icon: "ion-logo-whatsapp", link: "https://whatsapp.com/channel/0029VaiqYRbC1Fu4UkeAAk0B"}
 - {icon: "ion-logo-facebook", link: "#"}
 
 
