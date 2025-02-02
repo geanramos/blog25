@@ -42,6 +42,24 @@
   <link href="https://dev.geanramos.com.br/18011975/social/style.css?v=2" rel="stylesheet">
 
   <style>
+.footer-banner {
+    position: fixed;
+    bottom: 25px; /* Ajusta para 25px acima do rodapÃ© */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza o banner horizontalmente */
+    z-index: 10; /* Garante que o banner fique acima do fundo */
+    width: 360px; /* Largura do banner */
+    height: 90px; /* Altura do banner */
+    background-color: transparent; /* Fundo transparente */
+}
+
+.footer-banner img {
+    width: 100%; /* Faz a imagem ocupar todo o espaÃ§o disponÃ­vel */
+    height: 100%; /* Faz a imagem ocupar toda a altura do banner */
+    display: block; /* Elimina o espaÃ§o em branco abaixo da imagem */
+	border-radius: 5px;
+}
+    
     img { border-radius: 8px; }
     .logo__image { max-height:80px; }
   {% capture include_to_scssify %}
